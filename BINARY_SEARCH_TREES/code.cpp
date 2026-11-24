@@ -11,6 +11,7 @@ class Node{
         left=right=NULL;
      }
 };
+//Insert a node in aBST
 Node* insert(Node* root,int val){
     if(root==NULL){
         return new Node(val);
